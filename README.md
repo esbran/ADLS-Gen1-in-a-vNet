@@ -4,7 +4,7 @@ The goal is to limit access to ADLS Gen1 only through a VNet using VNet Service 
 Configure VNet Service Endpoints for ADLS Gen1 per the documentation (selecting VNet Service Endpoints for AAD in the VNet, obtaining the IP of their ADLS instance, configuring the UDR and configuring the ADLS Gen1 firewall to allow communication from the VNet).
 VM1 has a public IP, it is part of the vNet. VM2 does not have a public IP and can only be accessed from VM1. Inside VM2 I create a self hosted Integration runtime for Data factory. NSG has an opening for my computer to RDP to VM1.
 
-
+![adls-vnet-visio](/adls-vnet-visio.png?raw=true "Visio")
 
 When accessing ADLS from ADF or Storage explorer through VM2 there are two options to get access: 
 Option 1) 
