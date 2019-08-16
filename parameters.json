@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "firewallRules_ADF_IR_startIpAddress": {
+            "value": null
+        },
+        "firewallRules_ADF_IR_endIpAddress": {
+            "value": null
+        },
+        "virtualNetworks_vnet_name": {
+            "value": null
+        },
+        "virtualMachines_vnetvm2_name": {
+            "value": null
+        },
+        "accounts_vnetlake_name": {
+            "value": null
+        },
+        "virtualMachines_adlsvnet_name": {
+            "value": null
+        },
+        "routeTables_vnetadlsroute_name": {
+            "value": null
+        },
+        "storageAccounts_vnetadls2_name": {
+            "value": null
+        },
+        "networkInterfaces_vnetvm2728_name": {
+            "value": null
+        },
+        "publicIPAddresses_vnetvm2_ip_name": {
+            "value": null
+        },
+        "storageAccounts_vnetadlsdiag_name": {
+            "value": null
+        },
+        "networkInterfaces_adlsvnet289_name": {
+            "value": null
+        },
+        "publicIPAddresses_adlsvnet_ip_name": {
+            "value": null
+        },
+        "networkSecurityGroups_adlsvnet_nsg_name": {
+            "value": null
+        }
+    }
+}
